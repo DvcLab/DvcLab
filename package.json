@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "parcel": "^1.12.3"
+  },
+  "name": "www-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "http://uml.ink:2333/dev/www-web",
+  "author": "WangTZ1996 <2249796929@qq.com>",
+  "license": "MIT"
+}

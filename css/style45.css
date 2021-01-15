@@ -1,0 +1,131 @@
+.page4_p1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 8% 0;
+  flex-direction: column;
+}
+.page4_p1 .page4_title {
+  font-size: 56px;
+  padding: 0 6%;
+}
+.page4_p1 .page4_card {
+  /* background: #aaa; */
+  display: flex;
+  padding: 0 14%;
+  height: 100%;
+}
+
+.page4_p1 .page4_card .context {
+  background: #fff;
+  width: 100%;
+  height: auto;
+}
+.page4_p1 .page4_card .context .cardbox1 {
+  padding-top: 6%;
+  width: 100%;
+  /* height: 50%; */
+  display: flex;
+  flex-direction: column-reverse;
+}
+.page4_p1 .page4_card .context .cardbox1 .card1 {
+  border-radius: 20px;
+  background: #fff;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%; 
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  min-height: 200px;
+  /* max-height: 300px; */
+}
+.page4_p1 .page4_card .context .cardbox2 {
+  padding-top: 6%;
+  width: 100%;
+  /* height: 50%;  */
+  display: flex;
+  flex-direction: column-reverse;
+}
+.page4_p1 .page4_card .context .cardbox2 .card2 {
+  border-radius: 20px;
+  background: #fff;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%; 
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  min-height: 200px;
+  max-height: 200px;
+}
+.shadow {
+  box-shadow: 3px 3px 6px #ccc;
+}
+.photo_img {
+  display: block;
+  max-height: 200px;
+  max-width: 200px;
+  margin-left: 30px;
+  margin-top: -30px;
+}
+.msg {
+  padding: 4%;
+  padding-top: 2%;
+}
+.msg p {
+  margin: 0;
+  color: #525d6d;
+}
+.msg .name {
+  font-size: 20px;
+  color: #000;
+}
+.msg .text {
+  padding-top: 26px;
+  line-height: 30px;
+}
+.page5_box {
+  height: 100%;
+  width: 100%;
+  padding: 5% 16%;
+  display: flex;
+  flex-direction: row;
+  max-height: 712px;
+}
+
+.page5_box .page5_left {
+  width: 100%;
+  height: 100%;
+}
+.page5_box .page5_right {
+  width: 100%;
+  height: 100%;
+  /* margin: 0 auto; */
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.page5_box .page5_left .page5_title{
+  font-size: 56px;
+}
+.page5_box .page5_left .page5_s1 {
+  padding-top: 30px;
+}
+.page5_box .page5_left .page5_s1 .info{
+  margin: 0;
+  line-height: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+.svg {
+  vertical-align: middle;
+}
+.infoImg {
+  width: 434px;
+  height: 220.5px; 
+  margin: 15px 0;
+}
+.page5_box .page5_left p {
+  color: #525d6d;
+}
