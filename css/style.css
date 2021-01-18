@@ -240,7 +240,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 	#menu>ul {
 		position: relative;
 		width: 80%;
-		margin:20% auto;
+		/*margin:20% auto;*/
+		margin: 10% auto;
 		z-index: 31;
 	}
 	#menu>ul>li {
@@ -463,17 +464,20 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		position: absolute;
 		background: rgba(255,255,255,0.9);
 		width: 160px;
-		margin-top: 47px;
+		/*margin-top: 47px;*/
+		margin-top: 80px;
 		height: auto;
 		z-index: 33;
 		margin-right: 4.5%;
 		right: 0%;
-		border: rgb(236,0,0) 1px solid;
+		/*border: rgb(236,0,0) 1px solid;*/
+		border: 1px solid #f5751d;
 		border-top: #fff 1px solid;
+		box-shadow: 0 4px 6px -6px #222;
 	}
 	#menu>ul {
 		position: relative;
-		padding-top: 10px;
+		/*padding-top: 10px;*/
 		z-index: 33;
 	}
 	#menu>ul>li {
@@ -688,7 +692,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		position: absolute;
 		background: rgba(255,255,255,0.9);
 		width: 160px;
-		margin-top: 47px;
+		/*margin-top: 47px;*/
+		margin-top: 80px;
 		height: auto;
 		z-index: 33;
 		margin-right: 16%;
@@ -698,7 +703,7 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 	}
 	#menu>ul {
 		position: relative;
-		padding-top: 10px;
+		/*padding-top: 10px;*/
 		z-index: 33;
 	}
 	#menu>ul>li {
@@ -915,7 +920,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		position: absolute;
 		background: rgba(255,255,255,0.9);
 		width: 160px;
-		margin-top: 47px;
+		/*margin-top: 47px;*/
+		margin-top: 80px;
 		height: auto;
 		z-index: 33;
 		margin-right: 16%;
@@ -925,7 +931,7 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 	}
 	#menu>ul {
 		position: relative;
-		padding-top: 10px;
+		/*padding-top: 10px;*/
 		z-index: 33;
 	}
 	#menu>ul>li {
@@ -1170,7 +1176,7 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 	#menu>ul {
 		position: relative;
 		width: 80%;
-		margin:30% auto;
+		margin: 30% auto;
 		z-index: 31;
 	}
 	#menu>ul>li {
@@ -1207,17 +1213,23 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 
 
 
-.header{		/* 头部标签 */	
+.header {		/* 头部标签 */	
 	width: 100%;
-	height: 4rem;
+	/*height: 4rem; */
+	height: 80px; 
 	background: white;
 	position: fixed;
 	top: 0;
 	display: flex;
 	z-index: 31;
-	border-bottom: 1px solid rgb(236,0,0);
+	border-bottom: 1px solid #f5751d;
+	box-shadow: 0 4px 6px -6px #222;
 }
 /* 头部标签-内嵌logo */
+.header>nav {
+	display: flex;
+  align-items: center;
+}
 
 /* 头部标签-右侧菜单空间*/
 .header>span{
@@ -1228,9 +1240,9 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 }
 /* 头部标签-菜单按钮样式-- */
 .header>span>div{cursor:pointer;display: inline-block;}
-.header .liner{width: 2rem;height: 2px;display: inline-block;background: #ee1111;position: relative;}/*top: 12px;*/
-.header .liner::before{content: '';position: absolute;width: 2rem;height: 2px;background: #ee1111;top: -8px;left: 0;}
-.header .liner::after{content: '';position: absolute;width: 2rem;height: 2px;background: #ee1111;bottom: -8px;left:0;}
+.header .liner{width: 2rem;height: 2px;display: inline-block;background: #f5751d;position: relative;}/*top: 12px;*/
+.header .liner::before{content: '';position: absolute;width: 2rem;height: 2px;background: #f5751d;top: -8px;left: 0;}
+.header .liner::after{content: '';position: absolute;width: 2rem;height: 2px;background: #f5751d;bottom: -8px;left:0;}
 
 .body{			/* 轮播图主体部分  */
 	width: 100%;
