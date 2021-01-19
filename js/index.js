@@ -32,8 +32,8 @@ function testWidth(){
 		console.log('宽度小于规定阀值')
 		$('#main').css('overflow-y', 'auto');
 
-		$('#pageTitle').width(411 * (pageW / 1920) + 'px')
-		$('#pageTitle').height(411 * (pageW / 1920) * 0.37 + 'px')
+		// $('#pageTitle').width(411 * (pageW / 1920) + 'px')
+		// $('#pageTitle').height(411 * (pageW / 1920) * 0.37 + 'px')
 		$('#wrap').css('overflow', 'auto');
 		$('.swiper_li').hide();
 		for (var i = 0; i < pages.length; i++) { //每页高度
@@ -54,8 +54,8 @@ function testWidth(){
 		console.log('宽度大于指定阀值')
 		$('#main').css('overflow-y', 'hidden');
 
-		$('#pageTitle').width(411 * (pageW / 1920) + 'px')
-		$('#pageTitle').height(411 * (pageW / 1920) * 0.37 + 'px')
+		// $('#pageTitle').width(411 * (pageW / 1920) + 'px')
+		// $('#pageTitle').height(411 * (pageW / 1920) * 0.37 + 'px')
 		$('#wrap').css('overflow', 'auto');
 		$('.swiper_li').show();
 		for (var i = 0; i < pages.length; i++) { //每页高度
@@ -68,8 +68,8 @@ function testWidth(){
 		$('.page1_p1>p').css('font-size', pageW / 90 + 'px');
 		$('.page1_p1>p').css('line-height', pageW / 48 + 'px');
 		//第二个页面的数据样式
-		$('#pageTitle').width(411 * (pageW / 1920) + 'px')
-		$('#pageTitle').height(411 * (pageW / 1920) * 0.37 + 'px')
+		// $('#pageTitle').width(411 * (pageW / 1920) + 'px')
+		// $('#pageTitle').height(411 * (pageW / 1920) * 0.37 + 'px')
 		$('#main').scrollTop(now)
 	};
 	//计算屏幕初始高度
@@ -155,8 +155,8 @@ testWidth()
 		}
 		
 		//第二个页面的数据样式
-		$('#pageTitle').width(411 * (pageW / 1920) + 'px')
-		$('#pageTitle').height(411 * (pageW / 1920) * 0.37 + 'px')
+		// $('#pageTitle').width(411 * (pageW / 1920) + 'px')
+		// $('#pageTitle').height(411 * (pageW / 1920) * 0.37 + 'px')
 		/* Act on the event */
 		let oldPageH = pageH,
 			oldPageW = pageW; //之前的页面高度和页面宽度
@@ -195,8 +195,8 @@ testWidth()
 				$('.page1_p1>p').css('font-size', pageW / 90 + 'px');
 				$('.page1_p1>p').css('line-height', pageW / 48 + 'px');
 				//第二个页面的数据样式
-				$('#pageTitle').width(411 * (pageW / 1920) + 'px')
-				$('#pageTitle').height(411 * (pageW / 1920) * 0.37 + 'px')
+				// $('#pageTitle').width(411 * (pageW / 1920) + 'px')
+				// $('#pageTitle').height(411 * (pageW / 1920) * 0.37 + 'px')
 				//$('#main').scrollTop(0)
 			}
 		} else if (oldPageW < pageW || oldPageW > pageW) {

@@ -3,6 +3,7 @@ html,body{
 	height: 100%;
 	width: 100%;
 	font-size: 12px;
+	/*font-family: PingFangSC-Semibold, PingFang SC, Sans-serif;*/
 }
 body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::-webkit-scrollbar,.swiper_div::-webkit-scrollbar{width:0;}
 body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::-webkit-scrollbar,.swiper_div::-webkit-scrollbar{width:0;}
@@ -147,7 +148,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		position: absolute;
 		width: 2em;
 		height: 0.1em;
-		background: red;
+		/*background: red;*/
+		background: #f5751d;
 		left: 0;
 		bottom: 0;
 	}
@@ -156,7 +158,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		position: absolute;
 		width: 2em;
 		height: 0.1em;
-		background: red;
+		/*background: red;*/
+		background: #f5751d;
 		left: 0;
 		bottom: 0;
 	}
@@ -165,7 +168,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		position: absolute;
 		width: 2em;
 		height: 0.1em;
-		background: red;
+		/*background: red;*/
+		background: #f5751d;
 		left: 0;
 		bottom: 0;
 	}
@@ -174,7 +178,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		position: absolute;
 		width: 2em;
 		height: 0.1em;
-		background: red;
+		/*background: red;*/
+		background: #f5751d;
 		left: 0;
 		bottom: 0;
 	}
@@ -785,7 +790,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		font-size: 40px;
 	}
 	.page2_left{
-		width:26em;
+		/*width:26em;*/
+		width:30em;
 		height: 78vh;
 		position: relative;
 		z-index: 11;
@@ -796,7 +802,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		font-weight: normal;
 	}
 	.page2_left>h2>img{
-		height: 12rem;
+		/*height: 12rem;*/
+		height: 70%;
 		padding-bottom: 0.5em;
 	}
 	.page2_left>div img{
@@ -820,11 +827,13 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 	.dw_product_background{
 		position: absolute;
 		z-index: 8;
-		height: 100vh;
-		top: 0;
-		left: 50%;
-		margin-left: 120px;
-		transform: translate(-50%);
+		height: 50vh;
+		top: 15%;
+		/*left: 50%;*/
+		right: 0;
+		/*margin-left: 120px;*/
+		/*transform: translate(-50%);*/
+		transform: translate(-30%, 0);
 	}
 	.productBox {
 		position: absolute;
@@ -1082,7 +1091,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		position: absolute;
 		width: 2em;
 		height: 0.1em;
-		background: red;
+		/*background: red;*/
+		background: #f5751d;
 		left: 0;
 		bottom: 0;
 	}
@@ -1091,7 +1101,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		position: absolute;
 		width: 2em;
 		height: 0.1em;
-		background: red;
+		/*background: red;*/
+		background: #f5751d;
 		left: 0;
 		bottom: 0;
 	}
@@ -1100,7 +1111,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		position: absolute;
 		width: 2em;
 		height: 0.1em;
-		background: red;
+		/*background: red;*/
+		background: #f5751d;
 		left: 0;
 		bottom: 0;
 	}
@@ -1109,7 +1121,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		position: absolute;
 		width: 2em;
 		height: 0.1em;
-		background: red;
+		/*background: red;*/
+		background: #f5751d;
 		left: 0;
 		bottom: 0;
 	}
