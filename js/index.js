@@ -1,3 +1,6 @@
+const BGURL = './img/dvclab/dvc_pg1.png'
+const SMBGURL = './img/dvclab/dvc_pg1.png'
+
 $(function () {
 	var wrap = document.getElementById("wrap");
 	var main = document.getElementById("main");
@@ -38,9 +41,11 @@ function testWidth(){
 			arr[i] = $(pages[i]).height();
 		}
 		if (pageW <= 768) {
-			$('.dw_homepage_mainimage').attr('src', './img/dw_homepage_mainimage@0.5x.png')
+			// $('.dw_homepage_mainimage').attr('src', './img/dw_homepage_mainimage@0.5x.png')
+			$('.dw_homepage_mainimage').attr('src', SMBGURL)
 		} else {
-			$('.dw_homepage_mainimage').attr('src', './img/dw_homepage_mainimage.png')
+			// $('.dw_homepage_mainimage').attr('src', './img/dw_homepage_mainimage.png')
+			$('.dw_homepage_mainimage').attr('src', BGURL)
 			$('.swiper_li').show();
 			console.log("显示分页器")
 		}
@@ -77,9 +82,11 @@ function testWidth(){
 			arr[i] = $(pages[i]).height();
 		}
 		if (pageW <= 768) {
-			$('.dw_homepage_mainimage').attr('src', './img/dw_homepage_mainimage@0.5x.png')
+			// $('.dw_homepage_mainimage').attr('src', './img/dw_homepage_mainimage@0.5x.png')
+			$('.dw_homepage_mainimage').attr('src', SMBGURL)
 		} else {
-			$('.dw_homepage_mainimage').attr('src', './img/dw_homepage_mainimage.png')
+			// $('.dw_homepage_mainimage').attr('src', './img/dw_homepage_mainimage.png')
+			$('.dw_homepage_mainimage').attr('src', BGURL)
 		}
 		$('#main').scrollTop(0)
 	}
@@ -140,9 +147,11 @@ testWidth()
 		$('#wrap').css('overflow', 'auto');
 		if (pageH < 780) { $('.swiper_li').hide() }
 		if (pageW <= 768) {
-			$('.dw_homepage_mainimage').attr('src', './img/dw_homepage_mainimage@0.5x.png')
+			// $('.dw_homepage_mainimage').attr('src', './img/dw_homepage_mainimage@0.5x.png')
+			$('.dw_homepage_mainimage').attr('src', SMBGURL)
 		} else {
-			$('.dw_homepage_mainimage').attr('src', './img/dw_homepage_mainimage.png')
+			// $('.dw_homepage_mainimage').attr('src', './img/dw_homepage_mainimage.png')
+			$('.dw_homepage_mainimage').attr('src', BGURL)
 		}
 		
 		//第二个页面的数据样式
@@ -164,9 +173,11 @@ testWidth()
 					console.log('resize2')
 				}
 				if (pageW <= 768) {
-					$('.dw_homepage_mainimage').attr('src', './img/dw_homepage_mainimage@0.5x.png')
+					// $('.dw_homepage_mainimage').attr('src', './img/dw_homepage_mainimage@0.5x.png')
+					$('.dw_homepage_mainimage').attr('src', SMBGURL)
 				} else {
-					$('.dw_homepage_mainimage').attr('src', './img/dw_homepage_mainimage.png')
+					// $('.dw_homepage_mainimage').attr('src', './img/dw_homepage_mainimage.png')
+					$('.dw_homepage_mainimage').attr('src', BGURL)
 				}
 				//$('#main').scrollTop(0)
 			} else {
