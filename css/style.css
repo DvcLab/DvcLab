@@ -1503,7 +1503,8 @@ span {
 .swiper_li>li{	/*滑块圆圈样式*/
 	width: 9px;
 	height: 9px;
-	border: 1px solid #e11;
+	/*border: 1px solid #e11;*/
+	border: 1px solid #f5751d;
 	border-radius: 50%;
 	cursor: pointer;
 	overflow: hidden;
@@ -1511,7 +1512,8 @@ span {
 }
 .swiper_li>.on{/*圆圈处于选中状态*/
 	/* background: black; */
-	background: #ee1111
+	/*background: #ee1111;*/
+	background: #f5751d;
 }
 /*jsav fullPage.js 伪*/
 *{
