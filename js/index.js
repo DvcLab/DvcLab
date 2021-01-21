@@ -1,5 +1,5 @@
-const BGURL = './img/dvclab/dvc_pg1.png'
-const SMBGURL = './img/dvclab/dvc_pg1.png'
+const BGURL = './img/dvclab/pg1.png'
+const SMBGURL = './img/dvclab/pg1@0.5x.png'
 
 $(function () {
 	var wrap = document.getElementById("wrap");
