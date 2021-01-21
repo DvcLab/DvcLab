@@ -43,8 +43,9 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 	}
 	.dw_homepage_mainimage{
 		position: absolute;
-		height: 100vw;
-		width: 100vw;
+		/*height: 100vw;*/
+		height: 80vw;
+		/*width: 100vw;*/
 		left: 50%;
 		top: 50%;
 		transform: translate(-35%,-50%);
@@ -90,11 +91,15 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		margin-bottom: 3%;
 		font-weight: normal;
 	}
+	.page2_left>h4 {
+		line-height: 2em;
+	}
 	.page2_left>h2 {
 		text-align: center;
 	}
 	.page2_left>h2>img{
-		height: 140px;
+		/*height: 140px;*/
+		height: 50px;
 		padding-bottom: 0.5em;
 		margin: 0 auto;
 	}
@@ -289,7 +294,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		position: absolute;
 		height: 80vh;
 		width: auto;
-		left: 50%;
+		/*left: 50%;*/
+		left: 70%;
 		top: 50%;
 		transform: translate(-35%,-50%);
 		z-index: -1;
@@ -339,8 +345,12 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		margin-bottom:25%;
 		font-weight: normal;
 	}
+	.page2_left>h4 {
+		line-height: 2em;
+	}
 	.page2_left>h2>img{
-		height: 12rem;
+		/*height: 6rem;*/
+		height: 4.5rem;
 		padding-bottom: 0.5em;
 	}
 	.page2_left>div img{
@@ -364,10 +374,13 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 	.dw_product_background{
 		position: absolute;
 		z-index: 8;
-		height: 90vw;
+		/*height: 90vw;*/
+		height: 30vw;
 		width: auto;
-		top: 0;
-		left: 50%;
+		/*top: 0;*/
+		top: 25%;
+		/*left: 50%;*/
+		left: 70%;
 		/* margin-left: 120px; */
 		transform: translate(-50%);
 	}
@@ -527,7 +540,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		position: absolute;
 		height: 80vh;
 		width: auto;
-		left: 50%;
+		/*left: 50%;*/
+		left: 60%;
 		top: 50%;
 		transform: translate(-35%,-50%);
 		z-index: -1;
@@ -563,32 +577,36 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		font-weight: normal;
 		font-size: 40px;
 	}
-	.page2_left{
+	.page2_left {
 		width:24em;
 		height: 84vh;
 		min-height: 40vw;
 		position: relative;
 		z-index: 11;
 	}
-	.page2_left>h3{
+	.page2_left>h3 {
 		font-size: 5.65rem;
 		margin-bottom:25%;
 		font-weight: normal;
 	}
-	.page2_left>h2>img{
-		height: 12rem;
+	.page2_left>h4 {
+		line-height: 2em;
+	}
+	.page2_left>h2>img {
+		/*height: 12rem;*/
+		height: 5rem;
 		padding-bottom: 0.5em;
 	}
-	.page2_left>div img{
+	.page2_left>div img {
 		width:8rem;
 		height: auto;
 		display: block;
 		margin: 0 auto;
 	}
-	.page2_left dt{
+	.page2_left dt {
 		background: white;
 	}
-	.dw_product_demo{
+	.dw_product_demo {
 		position: absolute;
 		z-index: 9;
 		height: 80vh;
@@ -600,9 +618,12 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 	.dw_product_background{
 		position: absolute;
 		z-index: 8;
-		height: 100vh;
-		top: 0;
-		left: 50%;
+		/*height: 100vh;*/
+		height: 50vh;
+		/*top: 0;*/
+		top: 30%;
+		/*left: 50%;*/
+		left: 60%;
 		margin-left: 80px;
 		transform: translate(-50%);
 	}
@@ -668,8 +689,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		flex-direction: row;
 	}
 	#main{
-    	height:100%;
-    	top:0;
+    height:100%;
+    top:0;
 		position: relative;
 		/* overflow-x: hidden; */
 		/* overflow-y: auto; */
@@ -791,7 +812,7 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 	}
 	.page2_left{
 		/*width:26em;*/
-		width:30em;
+		width: 31em;
 		height: 78vh;
 		position: relative;
 		z-index: 11;
@@ -800,6 +821,9 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		font-size: 5.65rem;
 		margin-bottom:25%;
 		font-weight: normal;
+	}
+	.page2_left>h4 {
+		line-height: 2em;
 	}
 	.page2_left>h2>img{
 		/*height: 12rem;*/
@@ -828,7 +852,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		position: absolute;
 		z-index: 8;
 		height: 50vh;
-		top: 15%;
+		/*top: 15%;*/
+		top: 30%;
 		/*left: 50%;*/
 		right: 0;
 		/*margin-left: 120px;*/
