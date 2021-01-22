@@ -773,10 +773,10 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		position: absolute;
 		height: 75%;
 		/* width: 180%; */
-		right: 0;
-		top: 15%;
-		/*transform: translate(-35%,-50%);*/
-		transform: translate(0,0);
+		left: 60%;
+		/*top: 15%;*/
+		transform: translate(-35%,-50%);
+		/*transform: translate(0,0);*/
 		z-index: -1;
 	}
 	
@@ -852,13 +852,13 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		position: absolute;
 		z-index: 8;
 		height: 50vh;
-		/*top: 15%;*/
-		top: 30%;
-		/*left: 50%;*/
-		right: 0;
+		top: 15%;
+		/*top: 30%;*/
+		left: 56%;
+		/*right: 0;*/
 		/*margin-left: 120px;*/
-		/*transform: translate(-50%);*/
-		transform: translate(-30%, 0);
+		transform: translate(-50%);
+		/*transform: translate(-30%, 0);*/
 	}
 	.productBox {
 		position: absolute;
