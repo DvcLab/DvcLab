@@ -9,6 +9,9 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::-webkit-scrollbar,.swiper_div::-webkit-scrollbar{width:0;}
 body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::-webkit-scrollbar,.swiper_div::-webkit-scrollbar{width:0;}
 *,ul,ol{margin:0;padding:0;}
+img {
+	object-fit: cover;
+}
 /*盒子阴影*/
 .shadow{
 	box-shadow: 1px 4px 10px #e4e9f2 !important;
@@ -233,7 +236,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		height: 2rem;
 		line-height: 2rem;
 		-webkit-user-select: none;
-		border-top: 1px solid rgba(236,0,0,1);
+		/*border-top: 1px solid rgba(236,0,0,1);*/
+		border-top: 1px solid #f5751d;
 
 	}
 	.footerPC {
@@ -472,7 +476,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		position: absolute;
 		bottom:0;
 		-webkit-user-select: none;
-		border-top: 1px solid rgba(236,0,0,1);
+		/*border-top: 1px solid rgba(236,0,0,1);*/
+		border-top: 1px solid #f5751d;
 		margin-top: 80px;
 	}
 		.footerM {
@@ -708,7 +713,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		position: absolute;
 		bottom:0;
 		-webkit-user-select: none;
-		border-top: 1px solid rgba(236,0,0,1);
+		/*border-top: 1px solid rgba(236,0,0,1);*/
+		border-top: 1px solid #f5751d;
 		margin-top: 80px;
 	}
 		.footerM {
@@ -954,7 +960,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		position: absolute;
 		bottom:0;
 		-webkit-user-select: none;
-		border-top: 1px solid rgba(236,0,0,1);
+		/*border-top: 1px solid rgba(236,0,0,1);*/
+		border-top: 1px solid #f5751d;
 		margin-top: 80px;
 	}
 	.footerM {
@@ -1208,7 +1215,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		height: 2rem;
 		line-height: 2rem;
 		-webkit-user-select: none;
-		border-top: 1px solid rgba(236,0,0,1);
+		/*border-top: 1px solid rgba(236,0,0,1);*/
+		border-top: 1px solid #f5751d;
 
 	}
 	.footerPC {
