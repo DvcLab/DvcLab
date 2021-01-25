@@ -26,6 +26,10 @@
 	<!-- <script src="js/scroll.js"></script> -->
 	<script typet="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 	<script src="js/WX.js"></script>
+	<script src="color/color.js"></script>
+	<script src="js/fractal.js"></script>
+	<script src="js/animation.js"></script>
+	<script src="js/htree.js"></script>
 
 </head>
 
@@ -59,7 +63,8 @@
 				<li id="page1" class="page p">
 					<div class="page1_p1">
 						<!-- <img src="./img/dw_homepage_mainimage.png" class="dw_homepage_mainimage" style="display: none;" alt=""> -->
-						<img src="./img/dvclab/pg1.png" class="dw_homepage_mainimage" style="display: none;" alt="">
+						<!-- <img src="./img/dvclab/pg1.png" class="dw_homepage_mainimage" style="display: none;" alt=""> -->
+						<canvas id="HTreeDemo" class="dw_homepage_maincanvas" height="400" width="600"></canvas>
 						<!-- <h1>让每个人拥有<br />强大的财经信息处理能力</h1>
 						<p>数字奇迹是一家财经信息科技公司<br/>我们致力于打造一个更快、更全、更可信的财经信息传播平台</p> -->
 						<h1>编译你的世界<br />你，准备好了吗？</h1>
@@ -316,6 +321,16 @@
 			</ul>
 		</div>
 	</div>
+	<script type="text/javascript">
+		var canvas = document.getElementById('HTreeDemo'),
+		fract = new Fractal.HTree(canvas, {x: 0, y: 0}, 14, "green", "green", true);
+		
+		start = {x: canvas.width / 2, y: canvas.height};
+		target = {x: canvas.width / 4, y: canvas.height / 7};
+		var htreeAnim = new Fractal.Animation(fract, start, target);
+		
+		htreeAnim.skip(2000);
+	</script>
 </body>
 
 </html>

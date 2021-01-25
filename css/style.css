@@ -768,7 +768,16 @@ body::-webkit-scrollbar,html::-webkit-scrollbar,.main::-webkit-scrollbar,#wrap::
 		font-size: 20px;
 		color: #000;
 	}
-
+	.dw_homepage_maincanvas {
+		position: absolute;
+		height: 30vw;
+		/* width: 180%; */
+		left: 55%;
+		top: 50%;
+		transform: translate(-35%,-50%);
+		/*transform: translate(0,0);*/
+		z-index: -1;
+	}
 	.dw_homepage_mainimage{
 		position: absolute;
 		height: 75%;
