@@ -122,7 +122,8 @@ var Fractal = (function (Fractal, Color){
 			ctx.beginPath();
 			ctx.moveTo(0, 0);
 			ctx.lineTo(0, -height);
-			ctx.lineWidth = width;
+			// ctx.lineWidth = width;
+			ctx.lineWidth = width * 0.8;
 			ctx.strokeStyle = this.colors[curr_order];
 			ctx.stroke();
 
@@ -139,7 +140,8 @@ var Fractal = (function (Fractal, Color){
 			ctx.beginPath();
 			ctx.moveTo(0, 0);
 			ctx.lineTo(0, -height);
-			ctx.lineWidth = width;
+			// ctx.lineWidth = width;
+			ctx.lineWidth = width * 0.8;
 			ctx.strokeStyle = this.colors[curr_order];
 			ctx.stroke();
 
