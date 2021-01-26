@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DvcLAB</title>
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+  <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="js/fullpage.js"></script>
+  <script src="color/color.js"></script>
+  <script type="text/javascript" src="js/fractal.js"></script>
+  <script type="text/javascript" src="js/animation.js"></script>
+  <script type="text/javascript" src="js/htree.js"></script>
+</head>
+<body>
+<div class="bg"></div>
+<div id="fullpage">
+  <div class="section" id="section0">
+    <nav>
+      <div class="wrapper">
+        <div class="row">
+
+          <div class="col">
+            <a href="#"><img class="float-start" src="img/logo.png" width="140" alt="DvcLAB" /></a>
+          </div>
+
+          <div class="col">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="navbar-toggler-icon"></span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- <div class="float-end">
+              <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="navbar-toggler-icon" style="color:red;"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <li><button class="dropdown-item" type="button">Action</button></li>
+                  <li><button class="dropdown-item" type="button">Another action</button></li>
+                  <li><button class="dropdown-item" type="button">Something else here</button></li>
+                </ul>
+              </div>
+            </div> -->
+            
+          </div>
+
+        </div>
+        
+      </div>
+    </nav>
+    <div class="wrapper">
+      <div class="row align-items-center">
+          <div class="col-md-4 col-sm-12 text-md-start text-xs-center">
+            <h1>编译你的世界<br />你准备好了吗？</h1>
+            <p>DvcLAB - 类脑人工智能实验平台</p>
+          </div>
+          <div class="col-md-8 col-sm-12">
+            <canvas id="HTreeDemo" class="w-100" height="400" width="600"></canvas>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="section" id="section1">
+    <div class="wrapper">
+      <div class="row align-items-center">
+        <div class="col-md-4 col-sm-12">
+          <div class="float-start">
+            <img class="w-50" src="img/psiai.png" />
+            <h4>PsiAI是以开发者为中心的云端协作实验室。</h4>
+            <p>集合最新文献、开源算法、开放数据、编程环境的线上一站式开发平台。</p>
+          </div>
+        </div>
+        <div class="col-md-8 col-sm-12">
+          <img class="w-100" src="img/psiai_web.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section" id="section2">
+    <div class="wrapper">
+      <div class="row align-items-center">
+        <div class="col-md-4 col-sm-12">
+          <div class="float-start">
+            <img class="w-50" src="img/greenlight.png" />
+            <h4>GreenLight是基于加密隧道的数据采集系统。</h4>
+            <p>为PsiAI提供最新文献与可靠数据，文本、图像、视频自动并行采集存储系统。</p>
+          </div>
+        </div>
+        <div class="col-md-8 col-sm-12">
+          <img class="w-100" src="img/greenlight_web.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section" id="section3">
+    <div class="wrapper">
+      <div class="row align-items-center">
+        <div class="col-md-4 col-sm-12">
+          <div class="float-start">
+            <p>数字奇迹倡导扁平化的工作方式</p>
+            <p>我们灵活、专注、注重结果</p>
+            <p>我们崇尚简单，淡化层级，不称呼title</p>
+            <p>在数字奇迹，我们在坦诚和透明的环境中工作</p>
+            <p>提供灵活多元的职业发展路径</p>
+            <p>我们渴望年轻人并敢用年轻人，欢迎您的加入</p>
+            <p>欲知有关我们的岗位信息</p>
+          </div>
+        </div>
+        <div class="col-md-8 col-sm-12">
+          <div class="text-md-end text-xs-center">
+            <img class="photo w-50 mb-4" src="img/photo-1.jpg" alt="">
+            <img class="photo w-50" src="img/photo-2.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center">
+      Copyright &copy;类脑人工智能实验平台 <br class="d-md-none" />
+      <span>陕ICP备19021636号-4</span>
+    </div>
+  </footer>
+</div>
+<script type="text/javascript">
+var myFullpage = new fullpage('#fullpage', {
+  css3: false
+});
+
+var canvas = document.getElementById('HTreeDemo'),
+  fract = new Fractal.HTree(canvas, {x: 0, y: 0}, 14, "green", "green", true);
+
+  start = {x: canvas.width / 2, y: canvas.height};
+  target = {x: canvas.width / 4, y: canvas.height / 7};
+var htreeAnim = new Fractal.Animation(fract, start, target);
+
+htreeAnim.skip(2000);
+</script>
+</body>
+</html>
