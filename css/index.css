@@ -98,6 +98,7 @@ footer {
 .photo {
   border-radius: 1rem;
   box-shadow: 3px 3px 6px #ccc;
+  max-width: 30em;
 }
 
 .bg {
@@ -108,3 +109,8 @@ footer {
   transition: background-color 2s ease-in;
   opacity: 0.05;
 }
+/*@media screen and (min-width:480px) {
+  .photo {
+    width: 100%;
+  }
+}*/
