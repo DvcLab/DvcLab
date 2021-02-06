@@ -1,0 +1,59 @@
+html {
+  color: white;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+
+canvas {
+  position: fixed;
+}
+
+h1,h2 {
+  color: white;
+}
+
+.wrapper {
+  width: 85%;
+  max-width: 100em;
+  margin: 0 auto;
+}
+
+.section {
+  color: white;
+}
+
+.slogan {
+  /*text-align: center;*/
+  animation: fadeIn ease 1s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
