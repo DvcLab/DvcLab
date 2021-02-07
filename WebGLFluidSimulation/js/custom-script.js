@@ -52,7 +52,7 @@ SOFTWARE.
 // });
 
 // Simulation section
-const test = document.getElementById('fullpage')
+const allPage = document.getElementById('fullpage')
 const canvas = document.getElementsByTagName('canvas')[0];
 resizeCanvas();
 
@@ -1461,7 +1461,7 @@ function correctRadius (radius) {
     return radius;
 }
 
-test.addEventListener('mousedown', e => {
+allPage.addEventListener('mousedown', e => {
     let posX = scaleByPixelRatio(e.offsetX);
     let posY = scaleByPixelRatio(e.offsetY);
     let pointer = pointers.find(p => p.id == -1);
@@ -1470,9 +1470,10 @@ test.addEventListener('mousedown', e => {
     updatePointerDownData(pointer, -1, posX, posY);
 });
 
-test.addEventListener('mousemove', e => {
+allPage.addEventListener('mousemove', e => {
     let pointer = pointers[0];
-    if (!pointer.down) return;
+    // 鼠标移动时，也可触发特效
+    // if (!pointer.down) return;
     let posX = scaleByPixelRatio(e.offsetX);
     let posY = scaleByPixelRatio(e.offsetY);
     updatePointerMoveData(pointer, posX, posY);
@@ -1482,7 +1483,7 @@ window.addEventListener('mouseup', () => {
     updatePointerUpData(pointers[0]);
 });
 
-test.addEventListener('touchstart', e => {
+allPage.addEventListener('touchstart', e => {
     e.preventDefault();
     const touches = e.targetTouches;
     while (touches.length >= pointers.length)
@@ -1494,7 +1495,7 @@ test.addEventListener('touchstart', e => {
     }
 });
 
-test.addEventListener('touchmove', e => {
+allPage.addEventListener('touchmove', e => {
     e.preventDefault();
     const touches = e.targetTouches;
     for (let i = 0; i < touches.length; i++) {
