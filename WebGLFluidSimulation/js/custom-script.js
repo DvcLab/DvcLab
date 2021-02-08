@@ -61,7 +61,8 @@ let config = {
     DYE_RESOLUTION: 1024,
     CAPTURE_RESOLUTION: 512,
     DENSITY_DISSIPATION: 1,
-    VELOCITY_DISSIPATION: 0.2,
+    // VELOCITY_DISSIPATION: 0.2,
+    VELOCITY_DISSIPATION: 1.6, // 速度
     PRESSURE: 0.8,
     PRESSURE_ITERATIONS: 20,
     CURL: 30,
@@ -81,7 +82,8 @@ let config = {
     BLOOM_SOFT_KNEE: 0.7,
     SUNRAYS: true,
     SUNRAYS_RESOLUTION: 196,
-    SUNRAYS_WEIGHT: 1.0,
+    // SUNRAYS_WEIGHT: 1.0,
+    SUNRAYS_WEIGHT: 0.3,
 }
 
 function pointerPrototype () {
