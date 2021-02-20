@@ -50,7 +50,7 @@ SOFTWARE.
 //     ga('send', 'event', 'link promo', 'app');
 //     window.open('https://play.google.com/store/apps/details?id=games.paveldogreat.fluidsimfree');
 // });
-
+import dat from './dat.gui.min.js';
 // Simulation section
 const allPage = document.getElementById('fullpage')
 const canvas = document.getElementsByTagName('canvas')[0];
@@ -959,7 +959,9 @@ let bloomFramebuffers = [];
 let sunrays;
 let sunraysTemp;
 
-let ditheringTexture = createTextureAsync('LDR_LLL1_0.png');
+import imgLDR from '../images/LDR_LLL1_0.png';
+// let ditheringTexture = createTextureAsync('LDR_LLL1_0.png');
+let ditheringTexture = createTextureAsync(imgLDR);
 
 const blurProgram            = new Program(blurVertexShader, blurShader);
 const copyProgram            = new Program(baseVertexShader, copyShader);
