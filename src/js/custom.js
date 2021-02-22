@@ -10,6 +10,7 @@ import '../css/custom.css';
 
 import '../images/greenlight_web.png';
 import '../images/psiai_web.png';
+import '../images/aigame_web.png';
 
 let myFullpage = new fullpage('#fullpage', {
     css3: false
