@@ -5,9 +5,6 @@ const path = require('path');
 module.exports = {
   mode: 'development',
   entry: {
-    // script: './src/js/custom-script.js',
-    // bootstrap: './src/js/bootstrap.bundle.min.js',
-    // fullpage: './src/js/fullpage.js',
     main: './src/js/custom.js',
   },
   output: {
@@ -23,25 +20,7 @@ module.exports = {
     hotOnly: true
   },
   module: {
-    rules: [
-    //   {
-    //   test: /\.(svg|png|jpg|gif)$/,
-    //   use: {
-    //     loader: 'url-loader',
-    //     options: {
-    //       esModule: false,
-    //       name: '[name].[ext]',
-    //       outputPath: 'images/',
-    //       limit: 1024
-    //     }
-    //   },
-    //   type: 'javascript/auto'
-    // },
-    // {
-    //   test: /\.html$/i,
-    //   loader: 'html-loader',
-    // },
-    {
+    rules: [{
       test: /\.(png|jpg)$/,
       type: 'asset/resource'
     },{
