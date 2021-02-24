@@ -3,21 +3,14 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const path = require('path');
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: {
     main: './src/js/custom.js',
   },
   output: {
-    filename: '[name].js',
+    filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, 'dist'),
-    assetModuleFilename: 'images/[name][ext]'
-  },
-  devServer: {
-    contentBase: './dist',
-    open: true,
-    port: 3000,
-    hot: true,
-    hotOnly: true
+    assetModuleFilename: 'images/[name][contenthash][ext]'
   },
   module: {
     rules: [{
@@ -30,14 +23,14 @@ module.exports = {
         'css-loader'
       ]
     }, {
-      test: /\.m?js$/,
-      exclude: /node_modules/,
-      use: {
-        loader: "babel-loader",
-        options: {
-          presets: ['@babel/preset-env']
+        test: /\.m?js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ['@babel/preset-env']
+          }
         }
-      }
     }],
   },
   plugins: [
