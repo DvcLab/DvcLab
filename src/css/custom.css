@@ -1,5 +1,6 @@
 html {
   color: white;
+  font-weight: 300;
 }
 
 header {
@@ -15,8 +16,9 @@ canvas {
   position: fixed;
 }
 
-h1,h2 {
+h1, h2, h3 {
   color: white;
+  font-weight: 400;
 }
 
 .wrapper {
@@ -28,7 +30,9 @@ h1,h2 {
 .section {
   color: white;
 }
-
+.product-img {
+  width: 80%;
+}
 .slogan {
   /*text-align: center;*/
   animation: fadeIn ease 1s;
