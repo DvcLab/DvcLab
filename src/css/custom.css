@@ -30,10 +30,7 @@ h1, h2, h3 {
 .section {
   color: white;
 }
-.product-img {
-  width: 80%;
-}
-
+/* 首页 */
 .slogan {
   text-align: center;
   animation: fadeIn ease 1s;
@@ -64,6 +61,66 @@ h1, h2, h3 {
   font-size: 0.9rem;
   font-style: italic;
   text-align: right;
+}
+.projects {
+  font-size: 1rem;
+  margin: auto 2rem;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+.projects .feature-list {
+  list-style: none;
+  text-align: left;
+  margin: 1.2rem 0;
+  padding: 0;
+}
+.projects .feature-list li{
+  position: relative;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+.projects .feature-list li:before {
+  position: absolute;  
+  /* top: 8px;   */
+  margin: 8px 1rem 0 -1rem;    
+  vertical-align: middle;
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #fff;
+  content: "";
+  border-radius: 50%;
+}
+.projects .splide-caption {
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin-top: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .slogan p {
+    font-size: 1.2rem;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+/* fullpage导航样式修改 */
+#fp-nav.fp-right {
+  right: 0.1rem;
+}
+
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span {
+    background: #fff; /*设置的是活动导航的颜色*/
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    border: 1px solid #fff;/*设置的是非活动导航的颜色*/
 }
 
 @keyframes fadeIn {
