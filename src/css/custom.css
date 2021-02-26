@@ -33,10 +33,39 @@ h1, h2, h3 {
 .product-img {
   width: 80%;
 }
+
 .slogan {
-  /*text-align: center;*/
+  text-align: center;
   animation: fadeIn ease 1s;
 }
+
+.slogan .icon {
+  width: 8rem;
+  margin-bottom: 1.6rem;
+  /* filter: drop-shadow(0 0 1rem rgba(255, 252, 224, 0.15)); */
+}
+
+.slogan h1 {
+  font-size: 2.8rem;
+  font-family: 'Times New Roman', Times, serif;
+  /* font-family: Times, 'Times New Roman', serif; */
+  text-shadow: rgba(255, 252, 224, 0.5) 0 0 0.5rem ;
+}
+
+.slogan p {
+  font-size: 1.2rem;
+  width: 16rem;
+  margin: auto;
+}
+
+.slogan p.ref {
+  width: 12rem;
+  margin-top: 0.6rem;
+  font-size: 0.9rem;
+  font-style: italic;
+  text-align: right;
+}
+
 @keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}

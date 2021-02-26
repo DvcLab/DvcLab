@@ -8,9 +8,10 @@ import '../css/bootstrap.css';
 import '../css/index.css';
 import '../css/custom.css';
 
-import '../images/greenlight_web.png';
-import '../images/psiai_web.png';
+import '../images/psiai_web1.png';
+import '../images/greenlight_web1.png';
 import '../images/aigame_web.png';
+import '../images/icon.png';
 
 let myFullpage = new fullpage('#fullpage', {
     css3: false
