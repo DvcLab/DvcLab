@@ -14,10 +14,11 @@ module.exports = {
   },
   devServer: {
     contentBase: './dist',
-    open: true,
+    // open: true,
     port: 3000,
     hot: true,
-    hotOnly: true
+    hotOnly: true,
+    host: '0.0.0.0'
   },
   module: {
     rules: [{
