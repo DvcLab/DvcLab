@@ -21,6 +21,15 @@ h1, h2, h3 {
   font-weight: 400;
 }
 
+.icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  vertical-align: -0.15em;
+  fill: #fff;
+  overflow: hidden;
+  /* margin-top: 2rem; */
+}
+
 .wrapper {
   width: 85%;
   max-width: 100em;
@@ -36,7 +45,7 @@ h1, h2, h3 {
   animation: fadeIn ease 1s;
 }
 
-.slogan .icon {
+.slogan .logo {
   width: 8rem;
   margin-bottom: 1.6rem;
   /* filter: drop-shadow(0 0 1rem rgba(255, 252, 224, 0.15)); */
@@ -62,41 +71,65 @@ h1, h2, h3 {
   font-style: italic;
   text-align: right;
 }
+
 .projects {
   font-size: 1rem;
   margin: auto 2rem;
+}
+
+.projects img {
+  border-radius: 0.4rem;
+  filter: drop-shadow(0 0 0.5rem rgba(255, 252, 224, 0.2));
 }
 
 .projects h2 {
   font-size: 2rem;
   font-family: 'Times New Roman', Times, serif;
 }
-.projects .feature-list {
-  list-style: none;
-  text-align: left;
-  margin: 1.2rem 0;
-  padding: 0;
-}
-.projects .feature-list li{
-  position: relative;
-  padding-left: 1rem;
-  font-size: 1rem;
-}
-.projects .feature-list li:before {
-  position: absolute;  
-  /* top: 8px;   */
-  margin: 8px 1rem 0 -1rem;    
-  vertical-align: middle;
-  display: inline-block;
-  width: 0.5rem;
-  height: 0.5rem;
-  background: #fff;
-  content: "";
-  border-radius: 50%;
-}
-.projects .splide-caption {
+
+.projects .caption {
   font-size: 0.9rem;
   font-weight: 300;
+  margin: 1rem 0 2rem 0;
+}
+
+.contact {
+  text-align: left;
+  /* position: relative; */
+  /* text-align: justify; */
+}
+.contact h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+.contact a {
+  color: #fff; 
+  text-decoration: none;
+}
+.contact .contact-pc-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; 
+  text-decoration: none;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+.wrapper-footer {
+  position: relative;
+}
+
+footer {
+  position: absolute;
+  bottom:0px;
+  display:block;
+  width: 100%;
+  z-index:9;
+  text-align:center;
+  color: #ccc;
+  font-size: 0.8rem;
+  padding: 1rem 0 0.5rem 0;
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -105,6 +138,15 @@ h1, h2, h3 {
     width: 100%;
     margin: auto;
   }
+  .projects {
+    width: 85%;
+    max-width: 100em;
+    margin: 0 auto;
+  }
+}
+
+.splide__arrow {
+  background: none;
 }
 
 /* fullpage导航样式修改 */
