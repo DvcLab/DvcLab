@@ -20,6 +20,14 @@ h1, h2, h3 {
   color: white;
   font-weight: 400;
 }
+a {
+  color: #ccc; 
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff; 
+}
 
 .icon {
   width: 2.5rem;
@@ -98,15 +106,13 @@ h1, h2, h3 {
   /* position: relative; */
   /* text-align: justify; */
 }
+
 .contact h2 {
   font-size: 1.8rem;
   margin-bottom: 0.8rem;
 }
-.contact a {
-  color: #fff; 
-  text-decoration: none;
-}
-.contact .contact-pc-link {
+
+.contact-pc-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -115,14 +121,15 @@ h1, h2, h3 {
   margin-bottom: 2rem;
   margin-right: 2rem;
 }
+
 .wrapper-footer {
   position: relative;
 }
 
 footer {
   position: absolute;
-  bottom:0px;
-  display:block;
+  bottom: 0px;
+  display: block;
   width: 100%;
   z-index:9;
   text-align:center;
