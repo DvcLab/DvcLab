@@ -1,6 +1,7 @@
 import fullpage from './fullpage';
 import Splide from '@splidejs/splide';
 
+import './bg-script.js';
 import './bootstrap.bundle.min.js';
 import './iconfont.js';
 
