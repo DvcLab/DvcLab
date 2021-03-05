@@ -5,7 +5,8 @@ const path = require('path');
 module.exports = {
   mode: 'development',
   entry: {
-    main: './src/js/custom.js',
+    main: './src/js/index.js',
+    bg: './src/js/bg-script.js'
   },
   output: {
     filename: '[name].js',

@@ -5,7 +5,8 @@ const path = require('path');
 module.exports = {
   mode: 'production',
   entry: {
-    main: './src/js/custom.js',
+    main: './src/js/index.js',
+    bg: './src/js/bg-script.js'
   },
   output: {
     filename: '[name].[contenthash].js',
@@ -40,5 +41,18 @@ module.exports = {
     }),
     new CleanWebpackPlugin()
   ],
-  
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        vendor: {
+          name: 'vendor',
+          test: /[\\/]node_modules[\\/]/,
+          minSize: 0,
+          minChunks: 1,
+          priority: 10,
+          chunks: 'initial'
+        }
+      }
+    }
+  }
 };
