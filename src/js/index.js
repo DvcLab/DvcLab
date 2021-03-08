@@ -12,7 +12,6 @@ import '../css/custom.css';
 
 // logo
 import '../images/icon.png';
-import '../images/DvcLAB.png';
 import '../images/github-logo-64.png';
 import '../images/slack-logo-64.png';
 // psiai images
@@ -21,7 +20,6 @@ import '../images/psiai_dashboard_browserframe.png';
 import '../images/psiai_hostList_browserframe.png';
 import '../images/psiai_imageList_browserframe.png';
 import '../images/psiai_containerList_browserframe.png';
-
 // psipiper images
 import '../images/psipiper_frame.png';
 import '../images/psipiper_lib_browserframe.png';

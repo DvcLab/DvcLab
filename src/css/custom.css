@@ -30,9 +30,11 @@ a:hover {
 }
 
 .icon {
-  height: 2.4rem;
+  height: 3rem;
   margin-right: 0.4rem;
-  filter: drop-shadow(0 0 1rem rgba(255, 252, 224, 0.3));
+  border-radius: 50%;
+  background-color: rgba(255,255,255,0.25);
+  padding: 0.4rem;
 }
 
 .wrapper {
@@ -108,7 +110,12 @@ a:hover {
   font-size: 1.8rem;
   margin-bottom: 0.8rem;
 }
-
+.description {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  text-align: justify;
+  word-break: break-all;
+}
 .contact-pc-link {
   display: inline-flex;
   align-items: center;
