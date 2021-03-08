@@ -14,6 +14,8 @@ import '../css/custom.css';
 // logo
 import '../images/icon.png';
 import '../images/DvcLAB.png';
+import '../images/github-logo-64.png';
+import '../images/slack-logo-64.png';
 // psiai images
 import '../images/psiai_frame.png';
 import '../images/psiai_dashboard_browserframe.png';
