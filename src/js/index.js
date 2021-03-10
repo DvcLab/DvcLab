@@ -41,24 +41,20 @@ const Quotations = [
   }
 ]
 
-function toGithub () {
-  window.location.href = 'https://github.com/DvcLAB';
-}
-
 document.addEventListener("DOMContentLoaded", function(event) {
+  // 随机生成slogan
   const qEN = document.getElementById('q-en');
   const qZH = document.getElementById('q-zh');
   let index = new Date().getTime() % 3;
   qEN.innerHTML = Quotations[index].en;
   qZH.innerHTML = Quotations[index].zh;
-  console.log('DOM加载完毕')
-
+  // 全屏切换插件
   let myFullpage = new fullpage('#fullpage', {
     css3: false,
     navigation: true,
     navigationPosition: 'right',
   });
-
+  // psiai轮播图
   new Splide('#splide_psiai', {
     type: 'fade',
     interval: 2000,
@@ -68,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     autoplay: true,
     pagination: false
   }).mount();
-
+  // psipiper轮播图
   new Splide('#splide_psipiper', {
     type: 'fade',
     interval: 2000,
@@ -1681,29 +1677,3 @@ window.addEventListener("load", function(event) {
       return hash;
   };
 });
-// let myFullpage = new fullpage('#fullpage', {
-//     css3: false,
-//     navigation: true,
-//     navigationPosition: 'right',
-//   });
-
-// new Splide('#splide_psiai', {
-// 	type: 'fade',
-//   interval: 2000,
-//   rewind: true,
-//   drag: true,
-//   // arrows: false,
-// 	autoplay: true,
-//   pagination: false
-// }).mount();
-
-// new Splide('#splide_psipiper', {
-// 	type: 'fade',
-//   interval: 2000,
-//   rewind: true,
-//   drag: true,
-//   // arrows: false,
-// 	autoplay: true,
-//   pagination: false
-// }).mount();
-
