@@ -15,6 +15,7 @@ import '../css/custom.css';
 import '../images/icon.png';
 import '../images/github-logo-64.png';
 import '../images/slack-logo-64.png';
+import '../images/dvclab-logo-350.png';
 // psiai images
 import '../images/psiai_frame.png';
 import '../images/psiai_dashboard_browserframe.png';
@@ -44,10 +45,8 @@ const Quotations = [
 document.addEventListener("DOMContentLoaded", function(event) {
   // 随机生成slogan
   const qEN = document.getElementById('q-en');
-  const qZH = document.getElementById('q-zh');
   let index = new Date().getTime() % 3;
   qEN.innerHTML = Quotations[index].en;
-  qZH.innerHTML = Quotations[index].zh;
   // 全屏切换插件
   let myFullpage = new fullpage('#fullpage', {
     css3: false,
