@@ -6,7 +6,7 @@ module.exports = {
   mode: 'development',
   entry: {
     main: './src/js/index.js',
-    bg: './src/js/bg-script.js'
+    // bg: './src/js/bg-script.js'
   },
   output: {
     filename: '[name].js',

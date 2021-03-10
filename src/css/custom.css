@@ -67,7 +67,8 @@ a:hover {
 
 .slogan p {
   font-size: 1.2rem;
-  width: 16rem;
+  /* width: 16rem; */
+  width: 20rem;
   margin: auto;
 }
 
@@ -77,6 +78,10 @@ a:hover {
   font-size: 0.9rem;
   font-style: italic;
   text-align: right;
+}
+
+.slogan #q-zh {
+  font-size: 1rem;
 }
 
 .projects {
